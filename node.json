@@ -1,0 +1,11 @@
+{                                                                                                         
+    "apps": [{                                                                                                
+        "name": "ark_devnet",
+        "script": "~/ark-node/app.js",
+        "args": "--genesis genesisBlock.devnet.json --config config.devnet.json",                             
+        "instances": 1,
+        "exec_mode": "fork",                                                                                  
+        "exec_interpreter": "node",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"                                                           
+        }]                                                                                                
+}                                                                                                     
