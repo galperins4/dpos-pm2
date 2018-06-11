@@ -1,6 +1,6 @@
 ```sh
 sudo npm install pm2@latest
-git clone https://github.com/galperins4/tbw
+git clone https://github.com/galperins4/dpos-pm2
 cd ~/dpos-pm2
 cp node.json ~/ark-node/node.json (change node directory for matching coin)
 cd ~/ark-node/
