@@ -1,5 +1,5 @@
 ```sh
-sudo apt install npm
+sudo apt install npm -y
 sudo npm install pm2@latest -g
 git clone https://github.com/galperins4/dpos-pm2
 cd ~/dpos-pm2
