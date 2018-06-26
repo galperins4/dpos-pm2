@@ -38,7 +38,7 @@
 		{                                                                                                
         "name": "swapblocks_testnet",
         "script": "~/swapblocks-node/app.js",
-        "args": "--genesis ~/swapblocks-node/genesisBlock.testnet.json --config ~/swapblocks-node/config.testnet.json",                             
+        "args": "--genesis genesisBlock.testnet.json --config config.testnet.json",                             
         "instances": 1,
         "exec_mode": "fork",                                                                                  
         "exec_interpreter": "node",
