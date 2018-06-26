@@ -43,6 +43,15 @@
         "exec_mode": "fork",                                                                                  
         "exec_interpreter": "node",
         "log_date_format": "YYYY-MM-DD HH:mm Z"                                                           
-        }
+        },
+		{                                                                                                
+        "name": "kapup_mainnet",
+        "script": "~/kapu-node/app.js",
+        "args": "--genesis genesisBlock.mainnet.json --config config.mainnet.json",                             
+        "instances": 1,
+        "exec_mode": "fork",                                                                                  
+        "exec_interpreter": "node",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"                                                           
+        },
 	    ]                                                                                                
 }                                                                                                     
